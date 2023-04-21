@@ -1,0 +1,64 @@
+@startuml
+
+@startuml
+class Member {
+  e-mail : String
+
+}
+
+class BoardMember {
+  +id: int
+  +name: string
+  +email: string
+}
+
+class Person {
+ name : String
+
+}
+
+class Event {
+date : Date
+description : String
+assign(l : Location) : void
+}
+
+class Conference {
+  max_attendees : Integer
+
+}
+
+class BoardMeeting {
+  +id: int
+  +name: string
+  +description: string
+  +date: date
+  +location: Location
+}
+
+class Location {
+ description : String
+ address : String
+}
+class AAUOC {
+newLocation(l : Location) : void
+newEvent(e : Event) : void
+newPerson(p : Person) : void
+informEvent(e : Event) : void
+register(m : Member,e : Event) : void
+}
+
+Member "0..*" -- "0..*" Event
+BoardMember "0..*" -- "0..*" BoardMeeting
+Event "0..*" -- "1" Location
+Event <|-- Conference
+Event <|-- BoardMeeting
+Person "0..*" -- "0..*" Event
+AAUOC "0..*" -- "0..*" Location
+AAUOC "0..*" -- "0..*" Event
+AAUOC "0..*" -- "0..*" Person
+
+@enduml
+
+
+@enduml
