@@ -1,4 +1,4 @@
-@startuml
+
 
 @startuml
 class Member {
@@ -57,6 +57,8 @@ Person "0..*" -- "0..*" Event
 AAUOC "0..*" -- "0..*" Location
 AAUOC "0..*" -- "0..*" Event
 AAUOC "0..*" -- "0..*" Person
+
+
 
 @enduml
 

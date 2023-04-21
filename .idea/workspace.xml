@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="088e0bf3-2b1d-434e-b3ad-2dd9031fa755" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UMLClases_Elisabet_Agullo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test.puml" afterDir="false" />
+    <list default="true" id="088e0bf3-2b1d-434e-b3ad-2dd9031fa755" name="Changes" comment="Proyecto finalizado">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test.puml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,8 +55,16 @@
       <option name="presentableId" value="Default" />
       <updated>1682073180596</updated>
       <workItem from="1682073182532" duration="81000" />
-      <workItem from="1682073275445" duration="2071000" />
+      <workItem from="1682073275445" duration="3524000" />
     </task>
+    <task id="LOCAL-00001" summary="Proyecto finalizado">
+      <created>1682075404287</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682075404287</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -78,5 +80,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Proyecto finalizado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Proyecto finalizado" />
   </component>
 </project>
